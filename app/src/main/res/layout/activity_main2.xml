@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city Name"
+        android:id="@+id/city_et"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:background="#142378"
+        android:layout_height="wrap_content"
+        android:text="fetch"
+        android:textColor="@color/white"
+        android:id="@+id/btn_fet"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Population:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_gravity="right"
+        android:text="Result will show here"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Year:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_tvYr"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_gravity="right"
+        android:text="Result will show here"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="State Id:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_tvid"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_gravity="right"
+        android:text="Result will show here"
+        android:textSize="25sp" />
+
+
+
+
+</LinearLayout>
